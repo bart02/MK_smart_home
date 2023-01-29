@@ -74,6 +74,8 @@ void setup() {
   Serial.begin(115200);
   Serial.println();
   Serial.print("Configuring access point...");
+
+  Serial.println("The spy is in your code...");
   /* You can remove the password parameter if you want the AP to be open. */
   WiFi.softAP(ssid, password);
 
